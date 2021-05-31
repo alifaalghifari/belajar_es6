@@ -26,7 +26,7 @@ let pekerjaan = "Mahasiswa"
 // sebelum es6
 console.log("Nama saya " + nama + ", Saya seorang " + pekerjaan)
 
-// setelah es6, kita dapat menggunakan `` backtick
+// dengan es6, kita dapat menggunakan `` backtick
 // untuk memasukkan variabel tidak perlu concatenate ( + )
 // kita dapat menggunakan ${ namaVariabel }
 console.log(`Nama saya ${nama}, Saya seorang ${pekerjaan}`)
@@ -65,4 +65,4 @@ let hobi = "Membaca"
 let umur = 20
 let result = myFunc`Saya suka ${hobi}, dan berumur ${umur} tahun`
 
-console.log(result)
+console.log(result) // Saya suka Membaca, dan berurmur 30 tahun
